@@ -1,6 +1,6 @@
 import express from "express";
 
-const PORT = 4000;
+const PORT = Number(process.env.PORT ?? 4000);
 const app = express();
 app.use(express.json({ limit: "1mb" }));
 

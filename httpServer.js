@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT ?? 3000);
 const publicDirectory = path.join(path.dirname(fileURLToPath(import.meta.url)), "public");
 const cart = [];
 

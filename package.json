@@ -1,0 +1,14 @@
+{
+  "name": "mt1-labexam",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shopping cart practical exam with Node.js HTTP and Express servers",
+  "scripts": {
+    "start:http": "node httpServer.js",
+    "start:express": "node expressApp.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

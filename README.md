@@ -34,4 +34,9 @@ Send and receive JSON. The Express sample cart includes three products on startu
 
 ## Screenshots
 
-Save genuine screenshots of the running HTTP server and Express/Postman CRUD requests in `screenshots/`.
+The `screenshots/` folder contains evidence of both server startup, the HTTP home page, the GitHub commit history, and Express API requests:
+
+- `http-server-running.jpg` and `express-server-running.jpg` - server startup messages
+- `http-home-page.jpg` - static home page served by the HTTP server
+- `github-commit-history.jpg` - repository commit history
+- `api-get-cart.jpg`, `api-post-cart.jpg`, `api-put-cart.jpg`, and `api-delete-cart.jpg` - Express CRUD requests and responses

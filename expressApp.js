@@ -69,9 +69,6 @@ app.post("/cart/:id", (request, response) => {
     return response.status(400).json({ error: "Request body must be a JSON object" });
   }
   if (request.body.id === undefined) request.body.id = request.params.id;
-  else if (Number(request.body.id) !== Number(request.params.id)) {
-    return response.status(400).json({ error: "Path id must match body id" });
-  }
   return addProduct(request, response);
 });
 

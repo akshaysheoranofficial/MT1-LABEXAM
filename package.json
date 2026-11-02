@@ -6,7 +6,8 @@
   "description": "Shopping cart practical exam with Node.js HTTP and Express servers",
   "scripts": {
     "start:http": "node httpServer.js",
-    "start:express": "node expressApp.js"
+    "start:express": "node expressApp.js",
+    "test": "node --test"
   },
   "dependencies": {
     "express": "^4.21.2"

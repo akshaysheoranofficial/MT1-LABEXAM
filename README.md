@@ -10,9 +10,11 @@ Requires Node.js 18 or later.
 npm install
 npm run start:http
 npm run start:express
+npm test
 ```
 
 Run each server in a separate terminal. The built-in HTTP server uses port 3000; Express uses port 4000.
+`npm test` runs isolated API smoke tests on temporary ports and does not interrupt servers already running on the default ports.
 
 ## Built-in HTTP server
 
